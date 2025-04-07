@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "controleDeContas",
+    "name": "Controle de Contas",
     "slug": "controleDeContas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,13 +16,15 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.jolliedoggo.controleDeContas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "956687a3-e4f7-40eb-a1f0-269acd1de8c5"
+      }
     }
   }
 }
